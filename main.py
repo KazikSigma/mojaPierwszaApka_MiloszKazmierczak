@@ -1,5 +1,5 @@
 def run_app():
-    print("Witaj w prostej aplikacji Pythona!")
+    print("Witaj w aplikacji ")
 
     # Pobieranie danych od użytkownika
     try:
