@@ -1,5 +1,5 @@
 def run_app():
-    print("Witaj w aplikacji ")
+    print("Witaj w zaawansowanej aplikacji ")
 
     # Pobieranie danych od użytkownika
     try:
