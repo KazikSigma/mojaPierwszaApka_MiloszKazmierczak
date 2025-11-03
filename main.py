@@ -1,6 +1,3 @@
-
-# Simple Python Application
-
 def run_app():
     print("Witaj w prostej aplikacji Pythona!")
 
@@ -9,7 +6,7 @@ def run_app():
         num1 = float(input("Podaj pierwszą liczbę: "))
         num2 = float(input("Podaj drugą liczbę: "))
     except ValueError:
-        print("Nieprawidłowe dane. Upewnij się, że wprowadzasz liczby.")
+        print("Nieprawidłowe dane. Upewnij się, że wprowadzasz liczby!.")
         return
 
     # Wyświetlanie pobranych danych
@@ -20,7 +17,6 @@ def run_app():
     roznica = num1 - num2
     iloczyn = num1 * num2
     
-   
 
     # Wyświetlanie wyników obliczeń
     print(f"Suma: {suma}")
