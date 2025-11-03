@@ -27,3 +27,9 @@ jobs:
       - name: Run tests
         run: |
           if [ -d tests ]; then pytest -v; else echo "Brak testów do uruchomienia"; fi
+                
+      - name: Lint with flake8
+        run: |
+          pip install flake8
+          flake8 . --count --max-line-length=88 --statistics
+
